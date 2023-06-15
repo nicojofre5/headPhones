@@ -1,0 +1,32 @@
+@media only screen and (max-width:600px) {
+    .navbar{
+        background-color: #c83065;
+        height: 80px;
+        box-shadow: 2px 2px 15px 0px rgba(0,0,0, .42);
+        align-items: center;
+        
+    }
+    .menu-bar{
+        display: block;
+        font-size: 3em;
+        cursor: pointer;
+        color: white;
+    }
+    .navbar .menu{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        left:0;
+        background-color: #c83065;
+        height: 50vh;
+        transform: translateY(-100%);
+    }
+    .menu li{
+        margin-top: 3em;
+    }
+    .navbar .menu-toggle{
+        transform: translateY(10%);
+    }
+    
+}

@@ -39,6 +39,21 @@
     .brand{
         z-index: 1;
     }
-
-    
+    .img-principal img{
+        width: 200px;
+    }
+    .content-info h3{
+        font-size: 1.7em;
+    }
+    .content-info h1{
+        font-size: 3.2em;
+    }
+    .button-content button{
+        font-size: 1.2em;
+        padding: 10px;
+        margin: 10px 3px 0px 0px;
+    }
+    .main{
+        margin: 50px 0px 0px;
+    }
 }

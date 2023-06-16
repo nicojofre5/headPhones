@@ -43,17 +43,26 @@
         width: 200px;
     }
     .content-info h3{
-        font-size: 1.7em;
+        font-size:2em;
     }
     .content-info h1{
-        font-size: 3.2em;
+        font-size: 3.8em;
     }
     .button-content button{
-        font-size: 1.2em;
-        padding: 10px;
+        font-size: 1.5em;
+        padding: 8px 12px;
         margin: 10px 3px 0px 0px;
     }
     .main{
-        margin: 50px 0px 0px;
+        margin:0px 0px 0px;
+        flex-wrap: wrap-reverse;
+    }
+    .button-content{
+        display: flex;
+        justify-content: center;
+        gap:10px;
+    }
+    .content-info {
+        margin: 2.8em 0 0;
     }
 }
